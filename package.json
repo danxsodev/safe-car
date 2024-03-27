@@ -1,0 +1,29 @@
+{
+  "name": "safe-car",
+  "version": "1.0.0",
+  "description": "This project implements a REST API for a car insurance management system using React, Express, MySQL, TypeORM, JWT, and Swagger. It provides core functionalities for Customers and Admins to manage",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Danillo Xavier (danxsodev) and Davi Gonzaga (davignz)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "dotenv": "^16.4.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  }
+}
